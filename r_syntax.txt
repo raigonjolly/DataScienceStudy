@@ -1,0 +1,10 @@
+install.packages(c("slidfy"))
+source("http://bioconductoe.org/biocLite.R")
+biocLite()
+library(ggplot2)
+search()
+rtools
+find.packages("devtools")
+install.packages("devtools")
+library(devtools)
+find_rtools()

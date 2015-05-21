@@ -1,0 +1,33 @@
+http://git-scm.com/downloads
+
+--configuration username and email 
+git config --global user.name raigonjolly
+git config --global user.email raigonjolly4u@gmail.com
+
+--see username and email
+git config --list
+
+exit
+
+Web Development :
+Git Hub
+
+
+mkdir ~/DataScienceStudy
+cd ~/DataScienceStudy
+git init
+git remote add orgin https://github.com/raigonjolly/DataScienceStudy.git
+--fork
+git clone https://github.com/raigonjolly/DataScienceStudy.git
+
+------------
+
+git add .
+git add -u
+git add -A
+git commit -m "message"
+git push
+git checkout -b branchname
+--tell what branch you are on
+git branch
+git checkout master
