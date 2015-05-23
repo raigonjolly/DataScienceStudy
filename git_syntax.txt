@@ -1,8 +1,8 @@
 http://git-scm.com/downloads
 
 --configuration username and email 
-git config --global user.name raigonjolly
-git config --global user.email raigonjolly4u@gmail.com
+git config --global user.name <username>
+git config --global user.email <emailaddress>
 
 --see username and email
 git config --list
