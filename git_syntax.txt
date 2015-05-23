@@ -32,3 +32,11 @@ git checkout -b branchname
 --tell what branch you are on
 git branch
 git checkout master
+
+
+
+	
+Our alternative approach has become git fetch; git reset --hard origin/master as part of our workflow. 
+It blows away local changes, keeps you up to date with master BUT makes sure you don't just pull in new changes 
+on top on current changes and make a mess. We've used it for a while and it basically feels a lot safer in practice.
+Just be sure to add/commit/stash any work-in-progress first !
